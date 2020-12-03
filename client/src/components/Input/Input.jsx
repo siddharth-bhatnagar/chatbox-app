@@ -14,7 +14,9 @@ function Input({ message, setMessage, sendMessage }) {
           event.key === "Enter" ? sendMessage(event) : null
         }
       />
-      <button className="sendButton" onClick={(event) => sendMessage(event)} >Send</button>
+      <button className="sendButton" onClick={(event) => sendMessage(event)}>
+        Send
+      </button>
     </form>
   );
 }

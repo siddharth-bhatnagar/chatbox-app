@@ -66,10 +66,8 @@ function Chat({ location }) {
           setMessage={setMessage}
           sendMessage={sendMessage}
         />
-        <div>
-          <TextContainer users={users} />
-        </div>
       </div>
+      <TextContainer users={users} />
     </div>
   );
 }
