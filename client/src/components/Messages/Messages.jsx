@@ -5,15 +5,15 @@ import Message from "../Message/Message";
 
 function Messages({ messages, name }) {
   return (
-    <div className="messages">
-      <ScrollToBottom>
+    
+      <ScrollToBottom className="messages">
         {messages.map((message, i) => (
           <div key={i}>
             <Message message={message} name={name} />
           </div>
         ))}
       </ScrollToBottom>
-    </div>
+   
   );
 }
 
