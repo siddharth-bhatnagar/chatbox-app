@@ -26,9 +26,28 @@ A real-time chat application that uses react, react-router, and react hooks in i
 
 ## Installation
 
-Fire up a terminal and enter the following command: 
-```
-$ git clone git@github.com:siddharth-bhatnagar/chatbox-app.git
+**Prerequisite** - Install [Node](https://nodejs.org/en/) and [VS-Code](https://code.visualstudio.com/Download) on your device.
 
+Fork the project & fire up a terminal to enter the following command: 
+```
+$ git clone git@github.com:<username>/chatbox-app.git
+```
+cd into the project folder using:
+```
+$ cd ./chatbox-app/
+```
+To open the project in Visual Studio Code, enter:
+```
+$ code .
+```
+Open another tab in your terminal and cd into the client directory on tab and into the server directory on another, & run the following command on both:
+```
+$ npm i
+```
+This will install the required node modules to get you started.
+
+Finally, run this command on both tabs to start the respective servers.
+```
+$ npm start
 ```
 
