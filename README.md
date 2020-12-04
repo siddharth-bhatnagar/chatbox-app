@@ -50,4 +50,20 @@ Finally, run this command on both tabs to start the respective servers.
 ```
 $ npm start
 ```
+## How to use?
+
+- Enter your name as well as enter the name of the room you want to join/create.
+- Click/Touch the Join button.
+- Share you room's name with you friends and ask them to join.
+- Type in your messages and hit 'Enter'.
+- The app provides support for classic emojis. 
+
+## Credits
+
+This web application is inspired by [JavaScript Mastery](https://github.com/adrianhajdin/project_chat_application)
+
+## Licence
+
+This project is licensed under the terms of the MIT license.
+
 
