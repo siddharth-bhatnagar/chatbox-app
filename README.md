@@ -60,10 +60,6 @@ $ npm start
 - Type in your messages and hit 'Enter'.
 - The app provides support for classic emojis. 
 
-## Credits
-
-This web application is inspired by [JavaScript Mastery](https://github.com/adrianhajdin/project_chat_application)
-
 ## Licence
 
 This project is licensed under the terms of the MIT license.
